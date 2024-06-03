@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Edu+TAS+Beginner:wght@400..700&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+body {
+    font-family: ambroise-std;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+/* our header css */
+
+.heading h1 {
+    text-align: center;
+    color: #C2C2C2;
+
+    font-weight: normal; 
+    letter-spacing: 2px;
+    line-height: 2.5em; 
+    font-family: "Dancing Script", cursive;
+    font-weight: 500;
+    font-style: normal;
+    letter-spacing: 15px;
+    text-transform: uppercase;
+    line-height: 1em;
+    font-size: 75px;
+}
+
+.heading p{
+
+    color: #C2C2C2;
+    margin-top: 0;
+    margin-bottom: 1rem;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    unicode-bidi: isolate;
+    text-align: center;
+    
+}
+
+li.nav-item a:hover{
+    color: #C2C2C2;
+}
+
+li.nav-item{
+    font-size: small;
+    align-content: space-between;
+    padding-inline: 20px;
+    color: #C2C2C2;
+    
+}
+
+
+.bannerImg img {
+    width: 93%;
+    height: 80%;
+    justify-content: center;
+}
+
+.cool p{
+    color: #C2C2C2;
+}
+.cool span{
+    color: black;
+}
+
+
+/* our salesinfo css */
+
+.bannerImg2 img{
+    height: 300px;
+}
+
+.heading1{
+   color: rgb(16, 1, 1);
+}
+
+.pg{
+    color: #3e3d3d;
+    
+    
+}
+
+
+/* our gallery css */
+
+
+.row {
+    display: -ms-flexbox; 
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    padding: 0 4px;
+  }
+  
+
+  .column {
+    -ms-flex: 25%; 
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
+  }
+  
+  .column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+  }
+  
+  
+  @media screen and (max-width: 800px) {
+    .column {
+      -ms-flex: 50%;
+      flex: 50%;
+      max-width: 50%;
+    }
+  }
+
+  @media screen and (max-width: 600px) {
+    .column {
+      -ms-flex: 100%;
+      flex: 100%;
+      max-width: 100%;
+    }
+  }
+
+  .custom-margin-right {
+    margin-right: 50px; 
+  }
+
+
+
